@@ -1,10 +1,15 @@
 import React from "react";
-import MovieCard from "./Components/MovieCard";
+import "./App.css" 
+import Home from "./pages/Home"
 
 const App = () => {
+
+  
+
+
   return (
     <>
-      <MovieCard movie={{title: "Need for Speed", release_date: "2026" }} />
+     <Home/> 
     </>
   );
 };
