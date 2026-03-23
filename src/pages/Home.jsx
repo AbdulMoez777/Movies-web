@@ -3,6 +3,7 @@ import MovieCard from "../Components/MovieCard";
 import { searchMovies, getPopularMovies } from "../services/api";
 import "../css/Home.css";
 
+
 function Home() {
   
   const [searchQuery, setSearchQuery] = useState("");
